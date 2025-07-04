@@ -5,7 +5,7 @@ from main import app
 def client():
     app.testing = True
     return app.test_client()
-
+#osman
 def test_valid_conversion(client):
     response = client.get('/?celsius=25')
     assert response.status_code == 200
