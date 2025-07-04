@@ -31,4 +31,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: SiemensEgitim2025/celsius_to_fahr:${{ github.sha }}
+          tags: osmant/celstofahr:${{ github.sha }}
