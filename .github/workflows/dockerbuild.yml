@@ -29,4 +29,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: osmanturkmen1/proje_siemens:${{ github.sha }}
+          tags: SiemensEgitim2025/celsius_to_fahr:${{ github.sha }}
